@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .li1{
+        background-color: yellow;
+        display: inline;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .B1:hover{
+        color: darkblue;
+        font-size: 20px;
+    }
+    .B1{
+        color: rebeccapurple;
+        font-size: 15px;
+    }
+    #close{
+        color: chartreuse;
+        font-size: 10px;
+        
+    }
+    #rate{
+        color: red;
+        font-size: 11px;
+    }
+    </style>
+</head>
+<body>
+    <h1 style="color: lawngreen;">Let us have a tour of Telangana places,cities and villages</h1>
+   <nav>
+       
+       <ul style="list-style-type: none;">
+       <li class="li1">
+          <input type="button" value="Hyderabad" onclick="Hyderabad()" class="B1">
+       </li>
+       <li class="li1">
+          <input type="button" value="Bhadrachalam" onclick="Bhadrachalam()" class="B1">
+       </li>
+       <li class="li1">
+           <input type="button" value="Chilkoor" onclick="Chilkoor()" class="B1">
+       </li>
+       <li class="li1">
+           <input type="button" value="Karimnagar" onclick="Karimnagar()"class="B1">
+       </li>
+       <li class="li1">
+           <input type="button" value="Khammam" onclick="Khammam()" class="B1">
+       </li>
+       <li class="li1">
+          <input type="button" value="Mahabubnagar" onclick="Mahabubnagar()" class="B1">
+       </li>
+       <li class="li1">
+           <input type="button" value="Medaram" onclick="Medaram()" class="B1">
+       </li>
+       <li class="li1">
+           <input type="button" value="Nagarjunasagar Dam" onclick="Nagarjunasagar()" class="B1">
+       </li>
+       <li class="li1">
+           <input type="button" value="Nalgonda" onclick="Nalgonda()" class="B1">
+       </li>
+       <li class="li1">
+           <input type="button" value="Nelakondapalli" onclick="Nelakondapalli()" class="B1">
+       </li>
+       <li class="li1">
+           <input type="button" value="Nizamabad" onclick="Nizamabad()" class="B1">
+       </li>
+       <li class="li1">
+           <input type="button" value="Papikondalu" onclick="Papikondalu()" class="B1">
+       </li>
+       <li class="li1">
+          <input type="button" value="Secunderabad" onclick="Secunderabad()" class="B1">
+       </li>
+       <li class="li1">
+           <input type="button" value="Vemulawada" onclick="Vemulawada()" class="B1">
+       </li>
+       <li class="li1">
+           <input type="button" value="Warangal" onclick="Warangal()" class="B1">
+       </li>
+       </ul>
+   </nav>
+    <p>This app can give information about :</p>
+    <ul style="list-style-type: square;">
+        <li>Telangana Places</li>
+        <li>Telangana Cities,states,Villages,Districts specialities</li>
+        <li>And Telangana history</li>
+    </ul>
+    <input type="button" value="Close" onclick="Close()" id="close">
+    <input type="button" value="Rating" onclick="Rating()" id="rate">
+    <script>
+        var yon=confirm("Do you want to see my website")
+        if (yon==true)
+        {
+        alert("Welcome to my website")
+        alert("This website is all about Telangana Tourism Places")
+        }
+        else{
+            alert("Ok I can show my website anytime")
+            close()
+        }
+        function Hyderabad()
+        {
+            open("HM.html")
+        }
+        function Bhadrachalam()
+        {
+            open("BM.html")
+        }
+        function Chilkoor()
+        {
+            open("CM.html")
+        }
+        function Karimnagar()
+        {
+            open("KM.html")
+        }
+        function Khammam()
+        {
+            open("KHM.html")
+        }
+        function Mahabubnagar()
+        {
+            open("MM.html")
+        }
+        function Medaram()
+        {
+            open("ME.html")
+        }
+        function Nagarjunasagar()
+        {
+            open("NM.html")
+        }
+        function Nalgonda()
+        {
+            open("NA.html")
+        }
+        function Nelakondapalli()
+        {
+            open("NE.html")
+        }
+        function Nizamabad()
+        {
+            open("NIZ.html")
+        }
+        function Papikondalu()
+        {
+            open("PM.html")
+        }
+        function Secunderabad()
+        {
+            open("SM.html")
+        }
+        function Vemulawada()
+        {
+            open("VM.html")
+        }
+        function Warangal()
+        {
+            open("WM.html")
+        }
+        function Close()
+        {
+            alert("Website by Kruthik")
+            close()
+        }
+        function Rating()
+        {
+         open("LION.html")
+        }
+    </script>
+</body>
+</html>

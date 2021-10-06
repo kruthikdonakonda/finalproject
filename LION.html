@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #p2{
+            font-size: 30px;
+            color: purple;
+        }
+        #p1{
+            font-size: 90px;
+            color: aqua;
+        }
+        #close{
+               font-size: 11px;
+               color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <input type="button" value="Close" onclick="Close()" id="close">
+    <script>
+       var LION=confirm("Did you like my app or not");
+        if (LION==true)
+        {
+            var rate1=parseInt(prompt("How many stars you will give for my website"));
+            if(rate1==1)
+            {
+                document.getElementById("p2").innerHTML="*"
+                document.getElementById("p1").innerHTML="Ok I will do a better app next time"
+            }
+            else if (rate1==2)
+       {
+           document.getElementById("p2").innerHTML="* *"
+           document.getElementById("p1").innerHTML="Ok I will do a better app next time"
+       }
+       else if (rate1==3)
+       {
+           document.getElementById("p2").innerHTML="* * *"
+           document.getElementById("p1").innerHTML="Thank you for your support"
+       }
+       else if (rate1==4)
+       {
+        document.getElementById("p2").innerHTML="* * * *"
+        document.getElementById("p1").innerHTML="Thank you so much!!! It means soo much from you"    
+       }
+       else if (rate1==5)
+       {
+           document.getElementById("p2").innerHTML="* * * * *"
+           document.getElementById("p1").innerHTML="Thank you so much!!! It means soo much from you" 
+       }  
+        
+        if (LION==false)
+        {
+           close()
+        }
+    }
+        function Close()
+        {
+            close()
+        }
+    </script>
+</body>
+</html>
